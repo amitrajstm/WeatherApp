@@ -31,7 +31,7 @@ A simple weather application that fetches real-time weather data for any city us
 
 3. **Create a `.env` file** in the root directory and add your OpenWeatherMap API key:
    ```env
-   API_KEY =  process.env.<your_api_key_here>
+   API_KEY =  import.meta.env.<VITE_your_api_key_here>
    ```
 
 4. **Run the application:**
