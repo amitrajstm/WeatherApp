@@ -1,0 +1,15 @@
+.SearchBox{
+    text-align: center;
+}
+@keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    animation: flash 1s infinite;
+    margin-top: 10px;
+}
